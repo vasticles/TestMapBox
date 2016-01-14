@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.testmapbox.MainActivity"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto">
+
+    <com.mapbox.mapboxsdk.views.MapView
+        android:id="@+id/mapview"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        mapbox:access_token="pk.eyJ1Ijoib3BpbGtpbiIsImEiOiJjaWlqYXc4M2kwMHp2dWRrbm8wb2k5aXpyIn0.FiBJDujn2kzRRH3v--b0qg" />
+</LinearLayout>
